@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    password: onur58
+    url: jdbc:postgresql://todo-db:5858/tododb
+    username: onur
+  jpa:
+    hibernate:
+      ddl-auto: update

@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    password: onur58
+    url: jdbc:postgresql://localhost:5858/tododb
+    username: onur
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+    show-sql: true
